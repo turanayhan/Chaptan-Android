@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.PassRouter_3">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/futura"
+        android:gravity="center|start"
+        android:text="Kaydolun (3/3)"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintHeight_min="40dp"
+        app:layout_constraintHeight_max="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.9" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout13"
+        android:layout_width="467dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.015"
+        app:layout_constraintHeight_max="30dp"
+        app:layout_constraintHeight_min="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/select_city"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/pass_router_editTextColor"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidth="0dp"
+        app:endIconTint="@color/black"
+        app:helperText="@string/please_select_your_city"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="@color/helper_TextColor"
+        app:hintEnabled="true"
+        android:hint="@string/city"
+        app:placeholderTextColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
+        app:layout_constraintWidth_percent="0.9"
+        >
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout14"
+        android:layout_width="467dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHeight_max="30dp"
+        app:layout_constraintHeight_min="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_city" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField_surnames"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/surname"
+        app:boxBackgroundColor="@color/pass_router_editTextColor"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidth="0dp"
+        app:endIconTint="@color/black"
+        app:helperTextEnabled="false"
+        app:helperTextTextColor="@color/helper_TextColor"
+        app:hintEnabled="false"
+        app:placeholderTextColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout14"
+        app:layout_constraintWidth_percent="0.9">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:inputType="textPersonName"
+            android:layout_height="wrap_content"
+            android:drawableTint="@color/black"
+            android:hint="@string/invite_code"
+            android:paddingStart="6dp"
+            android:letterSpacing="0.02"
+            android:textColorHint="@color/hint_text_color"
+            android:textCursorDrawable="@drawable/cursor"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout15"
+        android:layout_width="467dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHeight_max="30dp"
+        app:layout_constraintHeight_min="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextField_surnames" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_router_next3"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/btn_color2"
+        android:fontFamily="@font/futura2"
+        android:text="@string/btn_continue"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout15"
+        app:layout_constraintWidth_percent="0.9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

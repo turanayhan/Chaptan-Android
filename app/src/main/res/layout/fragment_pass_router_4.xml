@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data>
+        <variable
+            name="driverUser"
+            type="com.hrdijital.chaptan.models.DriverUser"/>
+    </data>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.PassRouter_4"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/futura"
+        android:gravity="center|start"
+        android:text="Kaydı Tamamla"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintHeight_min="40dp"
+        app:layout_constraintHeight_max="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.9" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout13"
+        android:layout_width="467dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.015"
+        app:layout_constraintHeight_max="30dp"
+        app:layout_constraintHeight_min="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField_nameSurname"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/pass_router_editTextColor"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidth="1dp"
+        android:hint="@string/name_surname"
+        app:endIconTint="@color/black"
+
+
+        app:hintEnabled="true"
+        app:placeholderTextColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
+        app:layout_constraintWidth_percent="0.9"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTint="@color/black"
+            android:text="@{driverUser.nameSurname}"
+            android:letterSpacing="0.02"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/hint_text_color"
+            android:textCursorDrawable="@drawable/cursor"
+            android:textSize="18sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout14"
+        android:layout_width="467dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintHeight_max="40dp"
+        app:layout_constraintHeight_min="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextField_nameSurname" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/city"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/city_item"
+        app:boxBackgroundColor="@color/pass_router_editTextColor"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidth="1dp"
+        app:endIconDrawable="@drawable/clear"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+
+        app:hintEnabled="true"
+        app:placeholderTextColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout14"
+        app:layout_constraintWidth_percent="0.9">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTint="@color/black"
+            android:inputType="textPersonName"
+            android:text="@{driverUser.city}"
+            android:letterSpacing="0.02"
+            android:textColorHint="@color/hint_text_color"
+            android:textCursorDrawable="@drawable/cursor" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField_email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/mail"
+        app:boxBackgroundColor="@color/pass_router_editTextColor"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidth="1dp"
+        app:endIconTint="@color/black"
+        app:hintEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout15"
+        app:layout_constraintWidth_percent="0.9"
+        app:placeholderTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTint="@color/black"
+            android:inputType="textPersonName"
+            android:letterSpacing="0.02"
+            android:text="@{driverUser.mail}"
+            android:textColorHint="@color/hint_text_color"
+            android:textCursorDrawable="@drawable/cursor" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout15"
+        android:layout_width="467dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintHeight_max="40dp"
+        app:layout_constraintHeight_min="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout16"
+        android:layout_width="467dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="13dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_max="40dp"
+        app:layout_constraintHeight_min="20dp"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextField_email" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_router_next1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/btn_color2"
+        android:fontFamily="@font/futura2"
+        android:text="@string/btn_continue2"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout16"
+        app:layout_constraintWidth_percent="0.9" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

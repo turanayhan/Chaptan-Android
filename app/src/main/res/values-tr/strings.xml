@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chaptan</string>
+    <string name="toolbar_name">Yolcu</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="launch_message">Chaptan Uygulaması’na \nHoşgeldiniz</string>
+    <string name="post_code">TR +90</string>
+    <string name="helper_phone_number">Telefon numaranızı giriniz</string>
+    <string name="phone_number">Telefon Numarası</string>
+    <string name="user_terms_text1">Devam ederek</string>
+    <string name="user_terms_text2">Kullanıcı Şartları</string>
+    <string name="user_terms_text3">ve</string>
+    <string name="user_terms_text4">Gizlilik Politikası</string>
+    <string name="Traller">Yolcu</string>
+    <string name="Driver">Sürücü</string>
+    <string name="logo">Chaptan</string>
+    <string name="name">Adınız</string>
+    <string name="surname">Soyadınız</string>
+    <string name="name_surname">İsim Soyisim</string>
+    <string name="please_enter_your_lastname">Lütfen soyadınızı girin</string>
+    <string name="please_enter_your_name">Lütfen adınızı girin</string>
+    <string name="user_terms_text5">belgelerini okumuş ve kabul edersiniz.</string>
+    <string name="btn_continue">Devam</string>
+    <string name="btn_continue2">Sonraki</string>
+    <string name="mail">E-posta</string>
+    <string name="please_enter_your_mail">Lütfen e-posta adresinizi girin</string>
+    <string name="password">Parola</string>
+    <string name="please_enter_password">Lütfen parolanızı girin</string>
+    <string name="please_select_your_city">Lütfen şehrinizi seçin</string>
+    <string name="Enter_your_mobile_number">Cep telefonu numaranızı girin</string>
+    <string name="city">İstanbul</string>
+    <string name="city_item">Şehir</string>
+    <string name="invite_code">Davet Kodu (İsteğe Bağlı)
+
+
+    </string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_controller"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.hrdijital.chaptan.View.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/splashScreen" >
+        <action
+            android:id="@+id/action_splashScreen_to_launchScreen"
+            app:destination="@id/launchScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/launchScreen"
+        android:name="com.hrdijital.chaptan.View.LaunchScreen"
+        android:label="fragment_launch_screen"
+        tools:layout="@layout/launch_screen" >
+        <action
+            android:id="@+id/action_launchScreen_to_passAuth"
+            app:destination="@id/passAuth" />
+        <action
+            android:id="@+id/action_launchScreen_to_passRouter_12"
+            app:destination="@id/passRouter_1" />
+    </fragment>
+    <fragment
+        android:id="@+id/passAuth"
+        android:name="com.hrdijital.chaptan.View.PassAuth"
+        android:label="fragment_pass_auth"
+        tools:layout="@layout/pass_auth" >
+        <action
+            android:id="@+id/action_passAuth_to_pasOtp"
+            app:destination="@id/pasOtp" />
+    </fragment>
+    <fragment
+        android:id="@+id/pasOtp"
+        android:name="com.hrdijital.chaptan.View.PasOtp"
+        android:label="fragment_pas_otp"
+        tools:layout="@layout/pas_otp" >
+        <argument
+            android:name="gsm_no"
+            app:argType="string"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_pasOtp_to_notificationPermission"
+            app:destination="@id/notificationPermission" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationPermission"
+        android:name="com.hrdijital.chaptan.View.NotificationPermission"
+        android:label="fragment_notification_permission"
+        tools:layout="@layout/notification_permission" >
+        <action
+            android:id="@+id/action_notificationPermission_to_locationPermission"
+            app:destination="@id/locationPermission" />
+    </fragment>
+    <fragment
+        android:id="@+id/locationPermission"
+        android:name="com.hrdijital.chaptan.View.LocationPermission"
+        android:label="fragment_location_permission"
+        tools:layout="@layout/location_permission" >
+        <action
+            android:id="@+id/action_locationPermission_to_userDataPermission"
+            app:destination="@id/userDataPermission" />
+    </fragment>
+    <fragment
+        android:id="@+id/userDataPermission"
+        android:name="com.hrdijital.chaptan.View.UserDataPermission"
+        android:label="fragment_user_data_permission"
+        tools:layout="@layout/user_data_permission" />
+    <fragment
+        android:id="@+id/passRouter_1"
+        android:name="com.hrdijital.chaptan.View.PassRouter_1"
+        android:label="fragment_pass_router_1"
+        tools:layout="@layout/pass_router_1" >
+        <action
+            android:id="@+id/action_passRouter_1_to_passRouter_2"
+            app:destination="@id/passRouter_2" />
+    </fragment>
+    <fragment
+        android:id="@+id/passRouter_2"
+        android:name="com.hrdijital.chaptan.View.PassRouter_2"
+        android:label="fragment_pass_router_2"
+        tools:layout="@layout/pass_router_2" >
+        <action
+            android:id="@+id/action_passRouter_2_to_passRouter_3"
+            app:destination="@id/passRouter_3" />
+    </fragment>
+    <fragment
+        android:id="@+id/passRouter_3"
+        android:name="com.hrdijital.chaptan.View.PassRouter_3"
+        android:label="fragment_pass_router_3"
+        tools:layout="@layout/pass_router_3" >
+        <action
+            android:id="@+id/action_passRouter_3_to_passRouter_4"
+            app:destination="@id/passRouter_4" />
+    </fragment>
+    <fragment
+        android:id="@+id/passRouter_4"
+        android:name="com.hrdijital.chaptan.View.PassRouter_4"
+        android:label="fragment_pass_router_4"
+        tools:layout="@layout/fragment_pass_router_4" />
+</navigation>

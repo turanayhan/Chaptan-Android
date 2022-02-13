@@ -1,0 +1,39 @@
+buildscript {
+
+    ext.kotlin_version = '1.4.31'
+    ext.android_plugin_version = '3.5.3'
+    repositories {
+
+
+        google()
+        mavenCentral()
+
+
+    }
+    dependencies {
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.5.0-alpha01"
+        classpath 'com.android.tools.build:gradle:7.1.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
+    }
+}
+
+
+
+allprojects {
+    repositories {
+
+        maven { url "https://maven.google.com" }
+        mavenCentral()
+        google()
+
+
+
+
+    }
+}
+
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/drawable/arrow_back.xml" value="0.284" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/drawable/arrow_forward.xml" value="0.1925" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/drawable/arrow_white.xml" value="0.1925" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/drawable/bell.xml" value="0.1545" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/drawable/btn_arrow.xml" value="0.1925" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/drawable/chaptan_icon.xml" value="0.179" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/drawable/cursor.xml" value="0.3145" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3565" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/fragment_launch_screen.xml" value="0.33" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/fragment_location_permission.xml" value="0.23563218390804597" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/fragment_notification_permission.xml" value="0.33" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/fragment_pas_otp.xml" value="0.37305699481865284" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/fragment_pash__a.xml" value="0.26403641881638845" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/fragment_pass_auth.xml" value="0.38545454545454544" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/fragment_pass_router_1.xml" value="0.75" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/fragment_pass_router_2.xml" value="0.5" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/fragment_pass_router_3.xml" value="0.8149882903981265" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/fragment_pass_router_4.xml" value="0.1" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/fragment_splash__screen.xml" value="0.3614583333333333" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/fragment_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/fragment_user_data_permission.xml" value="0.34791666666666665" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/list_city_item.xml" value="0.8149882903981265" />
+        <entry key="..\:/Repository/Chaptan/app/src/main/res/layout/splashScreen.xml" value="0.8149882903981265" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.75" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

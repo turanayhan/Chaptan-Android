@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Chaptan</string>
+    <string name="toolbar_name">traveller</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="launch_message">Welcome to the \nCaptain App</string>
+    <string name="post_code">TR +90</string>
+    <string name="helper_phone_number">Enter your phone number</string>
+    <string name="phone_number">Phone number</string>
+    <string name="user_terms_text1">continuing</string>
+    <string name="user_terms_text2">User Terms</string>
+    <string name="user_terms_text3">and</string>
+    <string name="user_terms_text4">Privacy Policy</string>
+    <string name="Traller">Traveller</string>
+    <string name="Driver">Driver</string>
+    <string name="logo">Chaptan</string>
+    <string name="name">Your name</string>
+    <string name="surname">Your surname</string>
+    <string name="name_surname">Name surname</string>
+    <string name="please_enter_your_lastname">Please enter your last name</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="user_terms_text5">You have read and accept the documents.</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_continue2">Next</string>
+    <string name="mail">Email</string>
+    <string name="please_enter_your_mail">Please enter your e-mail address</string>
+    <string name="password">Password</string>
+    <string name="please_enter_password">Please enter your password</string>
+    <string name="please_select_your_city">Please select your city</string>
+    <string name="Enter_your_mobile_number">Enter your mobile number</string>
+    <string name="city">İstanbul</string>
+    <string name="city_item">City</string>
+    <string name="invite_code">Invite Code (Optional)</string>
+</resources>
