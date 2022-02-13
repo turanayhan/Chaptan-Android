@@ -16,6 +16,7 @@ import kotlinx.android.synthetic.main.pass_auth.*
 
 class PassAuth : Fragment() {
 
+    //geçiş objesi
     var action: NavDirections?=null
 
 
