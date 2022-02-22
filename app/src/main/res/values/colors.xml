@@ -16,6 +16,7 @@
     <color name="hint_text_color">#A3A2A2</color>
     <color name="pass_router_editTextColor">#EEEEEE</color>
     <color name="helper_TextColor">#FFA700</color>
+    <color name="statusText">#FFB100</color>
 
 
 </resources>

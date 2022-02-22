@@ -30,4 +30,9 @@
     <string name="city">İstanbul</string>
     <string name="city_item">City</string>
     <string name="invite_code">Invite Code (Optional)</string>
+    <string name="welcome_name">Welcome,Duran</string>
+    <string name="necessary_actions">Necessary actions</string>you are ready to start
+    <string name="knowledge_creation">To create information for your account,do \nthe following:</string>
+    <string name="you_are_ready_to_start">you are ready to start</string>
+
 </resources>

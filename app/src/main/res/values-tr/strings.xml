@@ -30,8 +30,9 @@
     <string name="Enter_your_mobile_number">Cep telefonu numaranızı girin</string>
     <string name="city">İstanbul</string>
     <string name="city_item">Şehir</string>
-    <string name="invite_code">Davet Kodu (İsteğe Bağlı)
-
-
-    </string>
+    <string name="invite_code">Davet Kodu (İsteğe Bağlı)</string>
+    <string name="welcome_name">Hoşgeldin,Duran</string>
+    <string name="necessary_actions">Gerekli işlemler</string>
+    <string name="knowledge_creation">Hesabınıza ait bilgileri oluşturmak için \nşunları yapın:</string>
+    <string name="you_are_ready_to_start">Başlamaya hazırsınız</string>
 </resources>

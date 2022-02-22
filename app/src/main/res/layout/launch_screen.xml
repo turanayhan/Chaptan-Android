@@ -23,7 +23,7 @@
             android:layout_width="32dp"
             android:layout_height="21dp"
             android:layout_marginLeft="14dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="34dp"
             android:background="@drawable/chaptan_icon" />
 
 

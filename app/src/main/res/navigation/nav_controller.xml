@@ -102,5 +102,14 @@
         android:id="@+id/passRouter_4"
         android:name="com.hrdijital.chaptan.View.PassRouter_4"
         android:label="fragment_pass_router_4"
-        tools:layout="@layout/fragment_pass_router_4" />
+        tools:layout="@layout/fragment_pass_router_4" >
+        <action
+            android:id="@+id/action_passRouter_4_to_rules"
+            app:destination="@id/rules" />
+    </fragment>
+    <fragment
+        android:id="@+id/rules"
+        android:name="com.hrdijital.chaptan.view.Rules"
+        android:label="rules"
+        tools:layout="@layout/rules" />
 </navigation>

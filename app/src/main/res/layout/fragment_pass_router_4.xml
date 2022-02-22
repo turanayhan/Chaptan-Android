@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     >
 
@@ -15,9 +16,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".View.PassRouter_4"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-   >
+    tools:context=".View.PassRouter_4">
 
 
     <TextView
@@ -39,13 +38,14 @@
 
 
     <LinearLayout
-        android:orientation="horizontal"
         android:id="@+id/linearLayout13"
         android:layout_width="467dp"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent="0.015"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_max="30dp"
         app:layout_constraintHeight_min="10dp"
+        app:layout_constraintHeight_percent="0.015"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -85,13 +85,14 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
         android:id="@+id/linearLayout14"
         android:layout_width="467dp"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent="0.05"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_max="40dp"
         app:layout_constraintHeight_min="20dp"
+        app:layout_constraintHeight_percent="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/outlinedTextField_nameSurname" />
 
@@ -162,13 +163,14 @@
 
 
     <LinearLayout
-        android:orientation="horizontal"
         android:id="@+id/linearLayout15"
         android:layout_width="467dp"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent="0.05"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_max="40dp"
         app:layout_constraintHeight_min="20dp"
+        app:layout_constraintHeight_percent="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/city" />
 
@@ -187,7 +189,7 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_router_next1"
+        android:id="@+id/btn_later"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:background="@color/btn_color2"
