@@ -6,9 +6,6 @@ import com.hrdijital.chaptan.R
 
 data class DriverRules(val title:String?,val status:Boolean?){
 
-    var welcomeText="Hoşgeldin,"
-
-
     fun textControl():String{
         status.let {
             if (it!!){
@@ -43,10 +40,7 @@ data class DriverRules(val title:String?,val status:Boolean?){
         }
     }
 
-    fun welcomeText(name:String?):String{
 
-        return welcomeText+name
-    }
 
 
 
